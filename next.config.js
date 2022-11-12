@@ -5,8 +5,8 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
-  basePath: './',
-  assetPrefix: './'
+  basePath: '/DataTableExample-Nextjs',
+  assetPrefix: '/DataTableExample-Nextjs'
 }
 
 module.exports = nextConfig
