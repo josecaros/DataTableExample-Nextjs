@@ -28,6 +28,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
-          GITHUB_TOKEN: ${{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}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: branchtoDeploy # The branch the action should deploy to.
           FOLDER: out # The folder the action should deploy.
