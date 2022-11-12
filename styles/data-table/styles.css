@@ -1,0 +1,14 @@
+.dataContainer{
+  width: 80vw;
+  max-height: 80vh;
+  height: 500px;
+}
+
+.titletable{
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.table-container{
+  padding: 20px;
+}
